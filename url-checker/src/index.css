@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  margin: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+.invalid {
+  border: 2px solid red;
+}
+
+.device-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.device {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.mobile iframe {
+  width: 250px;
+  height: 300px;
+  padding: 2px;
+}
+
+.tablet iframe {
+  width: 320px;
+  height: 350px;
+  padding: 2px;
+}
+
+.laptop iframe {
+  width: 650px;
+  height: 450px;
+  padding: 2px;
+}
+.destop iframe{
+  width: 1000px;
+  height: 573px;
+  padding: 3px;
+}
+.color-picker {
+  margin-top: 20px;
+}
+
+.color-picker button {
+  margin: 5px;
+  padding: 10px;
+  background-color: lightgray;
+  border: none;
+  cursor: pointer;
+}
+
+.color-picker button:hover {
+  background-color: gray;
+}
